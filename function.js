@@ -1,33 +1,18 @@
-
-
-function add() {
-	n += 1;
-	b.src = `./images/${ n }.jpg`;
-	dot[n - 1].classList.toggle( 'active' );
-	dot[n - 2].classList.toggle('active');
-	if (n >= 10) {
-		n = 0;
-	}
-	
-}
-function subtract () {
+function subtract() {
 	if (n <= 1) {
 		n = 11;
 	}
 	n -= 1;
-	
-	b.src = `./images/${ n }.jpg`;
+
+	b.src = `./images/${n}.jpg`;
 	dot[n - 1].classList.toggle('active');
 	dot[n - 2].classList.toggle('active');
-	
 }
-
 
 let n = 1;
 // let timeSet = setInterval(add, 2000);
 
 right_Button.addEventListener('click', add);
-
 
 left_Button.addEventListener('click', subtract);
 const lantern = document.querySelector('.lantern');
