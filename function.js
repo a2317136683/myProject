@@ -10,7 +10,7 @@ function subtract() {
 }
 
 let n = 1;
-// let timeSet = setInterval(add, 2000);
+let timeSet = setInterval(add, 2000);
 
 right_Button.addEventListener('click', add);
 
