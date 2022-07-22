@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+	margin: 100px auto;
+}
+
+.lantern {
+	position: relative;
+	height: 720px;
+}
+
+.lantern img {
+	width: 100%;
+	height: 100%;
+}
+
+.lantern:hover .right-Button,
+.lantern:hover .left-Button {
+	visibility: visible;
+}
+
+.right-Button,
+.left-Button {
+	visibility: hidden;
+	color: rgba(204, 204, 204, 0.4);
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	font-size: 150px;
+}
+
+.right-Button {
+	right: 0;
+}
+
+.left-Button {
+	left: 0;
+}
+
+.xiaqiu {
+	display: flex;
+	position: absolute;
+	width: 800px;
+	height: 30px;
+	bottom: 20px;
+	left: 50%;
+	justify-content: space-around;
+	align-items: center;
+	transform: translateX(-50%);
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	background-color: rgba(242, 185, 138, 0.4);
+	cursor: pointer;
+}
+
+.active {
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+.search {
+	width: 496px;
+	height: 36px;
+	vertical-align: middle;
+}
+
+.search1 {
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	vertical-align: middle;
+}
+
+.bigBox {
+	height: 600px;
+	background-color: #eee;
+}
+
+.w {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hengfu {
+	height: 40px;
+}
+
+.hengfu ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.fenlei {
+	display: block;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #000;
+}
+
+.bgcolor{
+	background-color: aqua;
+}
+
+.home{
+	display: none;
+	height: 560px;
+	background-color: skyblue;
+}
+
+.display{
+	display: block;
+}
+
+.item{
+	font-size: 400px;
+	
+}
